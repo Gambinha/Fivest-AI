@@ -1,0 +1,20 @@
+GPT-Robot
+
+Modelos:
+* gpt-4
+ - Instruções mais complexas
+ - Maior janela de contexto
+ 
+* gpt-3.5-turbo
+ - Maior chance de inventar informações (Hallucionation)
+ - Outputs com menos latência
+ - Menor custo por token
+
+Tokens:
+Modelos de linguagem leem e escrevem em chunks chamados "tokens". Pode ser uma palavra ou uma letra.
+Ex.: "ChatGPT is great!" é transformado em 6 tokens: ["Chat", "G", "PT", " is", " great", "!"].
+
+Api é paga baseado na quantidade de tokens no input + output da conversa.
+
+Preço: https://openai.com/pricing
+
